@@ -22,6 +22,8 @@ def on_received_value(name, number):
         pass
 radio.on_received_value(on_received_value)
 
+#radio group je nastavena na 69, stejne, jako server a mají stejnou transmit power(7), odpovedi se posilaji, jko cisla, ktere se zapisuji do listu, který resver vypisuje do konzole
+
 #def on_button_pressed_a():
 #    global vote
 #    vote = (vote+1)%4
